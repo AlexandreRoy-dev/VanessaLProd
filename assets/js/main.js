@@ -97,6 +97,11 @@
   window.addEventListener('load', aosInit);
 
   /**
+   * Initiate Pure Counter
+   */
+  new PureCounter();
+
+  /**
    * Init swiper sliders
    */
   function initSwiper() {
@@ -114,11 +119,6 @@
   }
 
   window.addEventListener("load", initSwiper);
-
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.

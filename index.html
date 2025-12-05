@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Vanessa Lemieux – Courtière Immobilière RE/MAX</title>
-  <meta name="description" content="Courtière immobilière RE/MAX offrant un service humain, professionnel et efficace pour l’achat et la vente de propriétés.">
-  <meta name="keywords" content="courtier immobilier, remax, propriété à vendre, estrie, courtier sherbrooke, achat maison, vendre maison">
+  <title>Index - Vanessa</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,34 +25,54 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 
 <body class="index-page">
 
-  <!-- Header -->
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <h1 class="sitename">Vanessa Lemieux</h1><span>.</span>
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Vanessa Lemieux</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Accueil</a></li>
-          <li><a href="#about">À propos</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Propriétés</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="#contact">Évaluation gratuite</a>
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
   </header>
-  <!-- End Header -->
 
   <main class="main">
 
@@ -64,543 +84,455 @@
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <h2>Votre Courtière Immobilière de Confiance</h2>
-            <p>Un accompagnement professionnel, humain et efficace pour réaliser vos projets immobiliers.</p>
-            <a href="#about" class="btn-get-started">En savoir plus</a>
+            <h2>Welcome to Our Website</h2>
+            <p>We are team of talented designers making websites with Bootstrap</p>
+            <a href="#about" class="btn-get-started">Get Started</a>
           </div>
         </div>
       </div>
 
-    </section>
-    <!-- /Hero Section -->
-
+    </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
 
+      <!-- Section Title -->
       <div class="container section-title">
-        <h2>À propos</h2>
-        <p>Découvrez mon approche personnalisée pour l’achat et la vente de propriétés.</p>
-      </div>
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-center">
-
-          <div class="col-lg-6">
-            <div class="row g-4">
-              <div class="col-12">
-                <div class="image-wrapper" data-aos="zoom-out" data-aos-delay="100">
-                  <img src="assets/img/about/about-6.webp" alt="" class="img-fluid main-image">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="image-wrapper" data-aos="fade-up" data-aos-delay="300">
-                  <img src="assets/img/about/about-5.webp" alt="" class="img-fluid secondary-image">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="image-wrapper" data-aos="fade-up" data-aos-delay="300">
-                  <img src="assets/img/about/about-4.webp" alt="" class="img-fluid secondary-image">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="content" data-aos="fade-up" data-aos-delay="200">
-              <span class="subtitle">À propos de moi</span>
-
-              <h2>Un service humain, professionnel et adapté à vos besoins</h2>
-
-              <p class="description">
-                Que vous souhaitiez vendre ou acheter une propriété, je vous accompagne à chaque étape avec transparence, expérience et efficacité.
-              </p>
-
-              <div class="features">
-
-                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
-                  <div class="icon-box">
-                    <i class="bi bi-mic-fill"></i>
-                  </div>
-                  <div class="feature-content">
-                    <h4><a href="#" class="stretched-link">Un accompagnement personnalisé</a></h4>
-                    <p>Chaque client bénéficie d’un suivi sur mesure, basé sur l’écoute, les besoins et les objectifs.</p>
-                  </div>
-                </div>
-
-                <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
-                  <div class="icon-box accent">
-                    <i class="bi bi-people-fill"></i>
-                  </div>
-                  <div class="feature-content">
-                    <h4><a href="#" class="stretched-link">Une expertise reconnue</a></h4>
-                    <p>Analyse du marché, conseils stratégiques et gestion complète pour une transaction réussie.</p>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="cta-button" data-aos="fade-up" data-aos-delay="500">
-                <a href="#services" class="btn">Voir mes services</a>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section>
-    <!-- /About Section -->
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <div class="container section-title">
-        <h2>Services</h2>
-        <p>Un service complet et professionnel pour votre projet immobilier.</p>
-      </div>
+        <h2>About</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-5">
+        <div class="row align-items-center gy-5">
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services/services-1.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-activity"></i>
-                </div>
-                <h3>Évaluation professionnelle</h3>
-                <p>Obtenez la juste valeur de votre propriété grâce à une analyse complète du marché.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services/services-2.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-broadcast"></i>
-                </div>
-                <h3>Mise en marché stratégique</h3>
-                <p>Photos professionnelles, visites virtuelles, diffusion maximale et visibilité optimisée.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services/services-3.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-easel"></i>
-                </div>
-                <h3>Achat d’une propriété</h3>
-                <p>Accompagnement complet pour trouver la propriété idéale selon vos critères et votre budget.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services/services-4.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <h3>Vente de propriété</h3>
-                <p>Gestion complète du processus pour maximiser vos résultats et assurer une transaction sécurisée.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services/services-5.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
-                </div>
-                <h3>Accompagnement clé en main</h3>
-                <p>Un service humain, professionnel et efficace du début à la fin.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
-            <div class="service-item">
-              <div class="img">
-                <img src="assets/img/services/services-6.webp" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
-                </div>
-                <h3>Support & conseils</h3>
-                <p>Disponible pour répondre à vos questions, vous guider et vous conseiller tout au long de votre projet.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- /Services Section -->
-
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="cta-wrapper">
-
-          <div class="cta-content" data-aos="fade-right" data-aos-delay="200">
-            <h2>Prêt à réaliser votre projet immobilier ?</h2>
-            <p>Contactez-moi pour une rencontre ou une évaluation gratuite de votre propriété.</p>
-            <div class="cta-buttons">
-              <a href="#contact" class="btn-primary">Évaluation gratuite</a>
-              <a href="#about" class="btn-outline">En savoir plus</a>
-            </div>
-          </div>
-
-          <div class="cta-image" data-aos="fade-left" data-aos-delay="300">
-            <img src="assets/img/illustration/illustration-13.webp" alt="CTA Illustration" class="img-fluid">
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- /Call To Action Section -->
-
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
             <div class="content">
-              <h2>Pourquoi travailler avec moi</h2>
-              <p>Je vous offre un service complet, humain et professionnel pour assurer votre tranquillité d’esprit tout au long de votre transaction immobilière.</p>
+              <h2>Crafting Digital Experiences That Drive Results</h2>
+              <p class="lead">We transform ideas into powerful digital solutions that help businesses thrive in the modern landscape.</p>
+              <p>Our passionate team of designers, developers, and strategists work collaboratively to create innovative web applications, mobile experiences, and digital marketing campaigns that engage users and deliver measurable results.</p>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <span class="stat-number" data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"></span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number" data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"></span>
+                  <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number" data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"></span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+              </div>
+
+              <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">View Our Work</a>
+                <a href="#" class="btn btn-outline">Start a Project</a>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="image-wrapper">
-              <img src="assets/img/about/about-8.webp" alt="Service professionnel" class="img-fluid">
+            <div class="image-container">
+              <div class="main-image">
+                <img src="assets/img/about/about-9.webp" alt="Digital Creative Process" class="img-fluid">
+              </div>
+              <div class="floating-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="card-content">
+                  <i class="bi bi-lightbulb-fill"></i>
+                  <h6>Creative Solutions</h6>
+                  <p>Innovative approaches to complex challenges</p>
+                </div>
+              </div>
+              <div class="floating-card-2" data-aos="zoom-in" data-aos-delay="500">
+                <div class="card-content">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h6>Growth Focused</h6>
+                  <p>Strategies that scale with your business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="testimonial-section" data-aos="fade-up" data-aos-delay="600">
+          <div class="testimonial-card">
+            <div class="quote-icon">
+              <i class="bi bi-quote"></i>
+            </div>
+            <blockquote>
+              "Working with this team transformed our digital presence completely. Their strategic approach and creative execution exceeded our expectations and delivered real business growth."
+            </blockquote>
+            <div class="author">
+              <img src="assets/img/person/person-m-8.webp" alt="Client" class="author-image">
+              <div class="author-info">
+                <h6>Marcus Johnson</h6>
+                <span>CEO, TechVision Inc.</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="features-grid" data-aos="fade-up" data-aos-delay="400">
-          <div class="row g-5">
+      </div>
 
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="section-header text-center mb-5">
+          <div class="badge-wrapper" data-aos="zoom-in" data-aos-delay="100">
+            <span class="section-badge">
+              <i class="bi bi-lightning-charge-fill"></i>
+              OUR EXPERTISE
+            </span>
+          </div>
+          <h2 class="section-title" data-aos="fade-up" data-aos-delay="150">
+            Delivering Excellence Through Innovative Solutions
+          </h2>
+          <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Proin gravida nibh vel velit auctor aliquet.
+          </p>
+        </div>
+
+        <div class="services-container">
+          <div class="row g-4">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="feature-item">
-                <div class="icon-wrapper">
-                  <i class="bi bi-lightbulb"></i>
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-code-slash"></i>
                 </div>
-                <div class="feature-content">
-                  <h3>Approche innovante</h3>
-                  <p>Techniques modernes, visibilité optimale et stratégies spécialement conçues pour votre propriété.</p>
+                <div class="service-content">
+                  <span class="service-number">01</span>
+                  <h3 class="service-title">Custom Application Development</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu. Duis pellentesque.</p>
+                  <a href="#" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="feature-item">
-                <div class="icon-wrapper">
-                  <i class="bi bi-award"></i>
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-bar-chart"></i>
                 </div>
-                <div class="feature-content">
-                  <h3>Expertise reconnue</h3>
-                  <p>Une connaissance approfondie du marché et une expérience sur laquelle vous pouvez compter.</p>
+                <div class="service-content">
+                  <span class="service-number">02</span>
+                  <h3 class="service-title">Strategic Business Planning</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu. Duis pellentesque.</p>
+                  <a href="#" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="feature-item">
-                <div class="icon-wrapper">
-                  <i class="bi bi-headset"></i>
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-palette"></i>
                 </div>
-                <div class="feature-content">
-                  <h3>Disponibilité 7 jours</h3>
-                  <p>Je suis disponible pour répondre à vos questions et accompagner chaque étape de votre projet.</p>
+                <div class="service-content">
+                  <span class="service-number">03</span>
+                  <h3 class="service-title">Brand &amp; Identity Design</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu. Duis pellentesque.</p>
+                  <a href="#" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="feature-item">
-                <div class="icon-wrapper">
-                  <i class="bi bi-graph-up-arrow"></i>
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-megaphone"></i>
                 </div>
-                <div class="feature-content">
-                  <h3>Résultats optimisés</h3>
-                  <p>Une stratégie basée sur vos besoins et vos objectifs pour maximiser vos résultats.</p>
+                <div class="service-content">
+                  <span class="service-number">04</span>
+                  <h3 class="service-title">Digital Marketing &amp; SEO</h3>
+                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu. Duis pellentesque.</p>
+                  <a href="#" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
+        <div class="cta-wrapper mt-5 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="cta-box">
+                <div class="row align-items-center">
+                  <div class="col-lg-4">
+                    <div class="cta-image" data-aos="zoom-in" data-aos-delay="200">
+                      <img src="assets/img/services/services-8.webp" alt="Services" class="img-fluid rounded-circle">
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="cta-content text-lg-start" data-aos="fade-left" data-aos-delay="300">
+                      <h3>Need a Custom Solution?</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                      <a href="#" class="primary-btn">Schedule a Consultation</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
 
-    </section>
-    <!-- /Features Section -->
+    </section><!-- /Services Section -->
 
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="cta-wrapper">
+          <div class="cta-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+          </div>
+
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <div class="cta-content p-5" data-aos="fade-right" data-aos-delay="200">
+                <span class="badge-custom" data-aos="zoom-in" data-aos-delay="300">Premium Offer</span>
+                <h2 class="mt-4 mb-4">Transform Your Experience With Our Solution</h2>
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                <div class="row benefits-row mb-5">
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-item">
+                      <div class="icon-box">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                      </div>
+                      <div class="benefit-content">
+                        <h5>Quick Setup</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-item">
+                      <div class="icon-box">
+                        <i class="bi bi-shield-check"></i>
+                      </div>
+                      <div class="benefit-content">
+                        <h5>Full Security</h5>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="action-buttons">
+                  <a href="#" class="btn btn-primary" data-aos="fade-up" data-aos-delay="600">Start Now</a>
+                  <a href="#" class="btn btn-outline" data-aos="fade-up" data-aos-delay="700">Learn More</a>
+                  <div class="guarantee-badge" data-aos="fade-up" data-aos-delay="800">
+                    <i class="bi bi-patch-check-fill"></i>
+                    <span>30-Day Money Back</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="cta-image-container" data-aos="zoom-in" data-aos-delay="300">
+                <img src="assets/img/illustration/illustration-3.webp" alt="Illustration" class="img-fluid main-image">
+                <div class="floating-element element-1">
+                  <i class="bi bi-star-fill"></i>
+                  <span>4.9 Rating</span>
+                </div>
+                <div class="floating-element element-2">
+                  <i class="bi bi-people-fill"></i>
+                  <span>10k+ Users</span>
+                </div>
+                <div class="pattern-dots"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
+      <!-- Section Title -->
       <div class="container section-title">
         <h2>Contact</h2>
-        <p>Je suis disponible pour répondre à vos questions ou planifier une rencontre.</p>
-      </div>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
       <div class="container">
         <div class="row">
-
           <div class="col-lg-5">
             <div class="contact-info">
-
               <div class="contact-card">
-                <h3>Informations de contact</h3>
-                <p>N’hésitez pas à me contacter pour toute question ou pour discuter de votre projet immobilier.</p>
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out with any questions about the book, speaking engagements, or media inquiries.</p>
 
                 <div class="contact-details">
-
                   <div class="contact-item">
                     <i class="bi bi-envelope"></i>
                     <div>
-                      <h4>Courriel :</h4>
-                      <p>vanessa@example.com</p>
+                      <h4>Email:</h4>
+                      <p>author@example.com</p>
                     </div>
                   </div>
 
                   <div class="contact-item">
                     <i class="bi bi-telephone"></i>
                     <div>
-                      <h4>Téléphone :</h4>
-                      <p>+1 (555) 987-6543</p>
+                      <h4>Phone:</h4>
+                      <p>+1 (555) 123-4567</p>
                     </div>
                   </div>
 
                   <div class="contact-item">
                     <i class="bi bi-geo-alt"></i>
                     <div>
-                      <h4>Adresse :</h4>
-                      <p>123 Avenue du Lac</p>
-                      <p>Sherbrooke, Québec</p>
+                      <h4>Address:</h4>
+                      <p>123 Book Street, Literary Lane</p>
+                      <p>Wordsmith City, NY 10001</p>
                     </div>
                   </div>
-
                 </div>
 
                 <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
                   <a href="#"><i class="bi bi-facebook"></i></a>
                   <a href="#"><i class="bi bi-instagram"></i></a>
                   <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
-
               </div>
-
             </div>
           </div>
 
           <div class="col-lg-7">
             <div class="contact-form-wrapper">
-
               <form action="forms/contact.php" method="post" class="php-email-form">
-
                 <div class="row">
                   <div class="col-md-6 form-group">
-                    <label for="name">Nom complet</label>
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="John Doe" required="">
                   </div>
                   <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <label for="email">Courriel</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="votrecourriel@example.com" required>
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="john@example.com" required="">
                   </div>
                 </div>
-
                 <div class="form-group mt-3">
-                  <label for="subject">Sujet</label>
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet de votre message" required>
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="I loved your book!" required="">
                 </div>
-
                 <div class="form-group mt-3">
                   <label for="message">Message</label>
-                  <textarea class="form-control" name="message" rows="4" placeholder="Votre message..." required></textarea>
+                  <textarea class="form-control" name="message" rows="4" placeholder="Your message here..." required=""></textarea>
                 </div>
 
                 <div class="my-3">
-                  <div class="loading">Chargement…</div>
+                  <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Votre message a été envoyé. Merci !</div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
 
                 <div class="text-center">
-                  <button type="submit">Envoyer le message</button>
+                  <button type="submit">Send Message</button>
                 </div>
-
               </form>
-
             </div>
           </div>
-
         </div>
       </div>
-
-    </section>
-    <!-- /Contact Section -->
+    </section><!-- /Contact Section -->
 
   </main>
 
-
-  <!-- Footer -->
   <footer id="footer" class="footer dark-background">
 
     <div class="container">
-      <div class="row gy-5">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Address</h4>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p></p>
+          </div>
 
-        <div class="col-lg-4">
-          <div class="footer-content">
-            <a href="index.html" class="logo d-flex align-items-center mb-4">
-              <span class="sitename">Vanessa Lemieux</span>
-            </a>
+        </div>
 
-            <p class="mb-4">
-              Un service professionnel, humain et transparent pour vous accompagner dans votre transaction immobilière.
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
+              <strong>Email:</strong> <span>info@example.com</span><br>
             </p>
-
-            <div class="newsletter-form">
-              <h5>Restez informé</h5>
-              <form action="forms/newsletter.php" method="post" class="php-email-form">
-                <div class="input-group">
-                  <input type="email" name="email" class="form-control" placeholder="Votre courriel" required>
-                  <button type="submit" class="btn-subscribe">
-                    <i class="bi bi-send"></i>
-                  </button>
-                </div>
-
-                <div class="loading">Chargement…</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Merci pour votre inscription !</div>
-              </form>
-            </div>
-
           </div>
         </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="footer-links">
-            <h4>Liens rapides</h4>
-            <ul>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> À propos</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Guides</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
-            </ul>
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
+              <strong>Sunday</strong>: <span>Closed</span>
+            </p>
           </div>
         </div>
 
-        <div class="col-lg-2 col-6">
-          <div class="footer-links">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Évaluation</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Achat</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Vente</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i> Mise en marché</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="footer-contact">
-            <h4>Me contacter</h4>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="bi bi-geo-alt"></i>
-              </div>
-              <div class="contact-info">
-                <p>Sherbrooke, Québec</p>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="bi bi-telephone"></i>
-              </div>
-              <div class="contact-info">
-                <p>+1 (555) 987-6543</p>
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="bi bi-envelope"></i>
-              </div>
-              <div class="contact-info">
-                <p>vanessa@example.com</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
-
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
       </div>
     </div>
 
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row align-items-center">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Vanessa Lemieux</strong> <span>All Rights Reserved</span></p>
 
-          <div class="col-lg-6">
-            <div class="copyright">
-              <p>© Copyright <strong class="px-1 sitename">Vanessa Lemieux</strong>. Tous droits réservés.</p>
-            </div>
-          </div>
-
-         
-
-        </div>
-      </div>
     </div>
 
   </footer>
-  <!-- End Footer -->
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-    <i class="bi bi-arrow-up-short"></i>
-  </a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -609,11 +541,12 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
